@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:id="@+id/updateTitle"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Subtitle"
+            android:id="@+id/updateSubTitle"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Button Visibility"
+            android:inputType="number"
+            android:maxLength="1"
+            android:id="@+id/btnVisibleValue"></EditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="Update Now"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnUpdateItem"></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="Delete Item"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDeleteItem"></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="Share Item"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnShareItem"></Button>
+
+    </LinearLayout>
+</layout>
